@@ -1,0 +1,20 @@
+<updates>
+    <update>
+    <name>Flexicontact</name>
+    <element>com_flexicontact</element>
+    <type>component</type>
+    <version>14.02</version>
+    <infourl title="Version History">https://www.lesarbresdesign.info/version-history/flexicontact</infourl>
+    <downloads>
+        <downloadurl type="full" format="zip">https://www.lesarbresdesign.info/?option=com_mediashop&amp;task=free_download&amp;pid=175</downloadurl>
+    </downloads>
+    <tags>
+        <tag>stable</tag>
+    </tags>
+    <sha256>82c8e37a5feb3012af75d3207aa2546ddb1d820179dd1a1d331c69e687c5eb07</sha256>
+    <maintainer>Les Arbres Design</maintainer>
+    <maintainerurl>http://www.lesarbresdesign.info/</maintainerurl>
+    <lad_info_notice><![CDATA[<div class="alert"><h4>FlexiContact Needs Your Help</h4>If you are a satisfied user of FlexiContact, please think about leaving a nice review for us at the <a href="https://extensions.joomla.org/extension/contacts-and-feedback/contact-forms/flexi-contact/" target="_blank">Joomla Extensions Directory</a>.<br />Reviews really help us to feel appreciated and motivated.</div>]]></lad_info_notice>
+    <targetplatform name="joomla" version=".*"/>
+    </update>
+</updates>

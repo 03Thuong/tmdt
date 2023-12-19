@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+   	<fieldset name="subject" class="lad-fieldset-tab" label="COM_FLEXICONTACT_SUBJECT">
+        <field name="show_subject" type="radio" default="1" label="COM_FLEXICONTACT_V_SHOW_SUBJECT"
+            description="COM_FLEXICONTACT_V_SHOW_SUBJECT_DESC" class="btn-group btn-group-yesno" >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field name="default_subject" type="text" class="input-xlarge" label="COM_FLEXICONTACT_V_DEFAULT_SUBJECT" default="" />
+	</fieldset>
+
+   	<fieldset name="message" class="lad-fieldset-tab" label="COM_FLEXICONTACT_MESSAGE">
+        <field name="message_note" type="note" label="COM_FLEXICONTACT_V_TEXT_AREA_DESC" />
+        <field name="area_opt" type="list" default="1" label="COM_FLEXICONTACT_MESSAGE">
+            <option value="disabled">COM_FLEXICONTACT_V_DISABLED</option>
+            <option value="optional">COM_FLEXICONTACT_V_OPTIONAL</option>
+            <option value="mandatory">COM_FLEXICONTACT_V_MANDATORY</option>
+        </field>
+        <field name="area_prompt" type="text" class="input-xlarge" label="COM_FLEXICONTACT_V_PROMPT" default="" />
+        <field name="area_height" type="number" class="input-xlarge" min="1" max="500" label="COM_FLEXICONTACT_V_HEIGHT" default="" />            
+	</fieldset>
+
+   	<fieldset name="opt_fields" class="lad-fieldset-tab" label="COM_FLEXICONTACT_OPTIONAL_FIELDS">
+        <field name="field_opt1" type="list" default="1" label="COM_FLEXICONTACT_FIELD_1" >
+            <option value="disabled">COM_FLEXICONTACT_V_DISABLED</option>
+            <option value="optional">COM_FLEXICONTACT_V_OPTIONAL</option>
+            <option value="mandatory">COM_FLEXICONTACT_V_MANDATORY</option>
+        </field>
+        <field name="field_prompt1" type="text" class="input-xlarge" label="COM_FLEXICONTACT_V_PROMPT" default="" />
+        
+        <field name="field_opt2" type="list" default="1" label="COM_FLEXICONTACT_FIELD_2" >
+            <option value="disabled">COM_FLEXICONTACT_V_DISABLED</option>
+            <option value="optional">COM_FLEXICONTACT_V_OPTIONAL</option>
+            <option value="mandatory">COM_FLEXICONTACT_V_MANDATORY</option>
+        </field>
+        <field name="field_prompt2" type="text" class="input-xlarge" label="COM_FLEXICONTACT_V_PROMPT" default="" />
+
+        <field name="field_opt3" type="list" default="1" label="COM_FLEXICONTACT_FIELD_3" >
+            <option value="disabled">COM_FLEXICONTACT_V_DISABLED</option>
+            <option value="optional">COM_FLEXICONTACT_V_OPTIONAL</option>
+            <option value="mandatory">COM_FLEXICONTACT_V_MANDATORY</option>
+        </field>
+        <field name="field_prompt3" type="text" class="input-xlarge" label="COM_FLEXICONTACT_V_PROMPT" default="" />
+
+        <field name="field_opt4" type="list" default="1" label="COM_FLEXICONTACT_FIELD_4" >
+            <option value="disabled">COM_FLEXICONTACT_V_DISABLED</option>
+            <option value="optional">COM_FLEXICONTACT_V_OPTIONAL</option>
+            <option value="mandatory">COM_FLEXICONTACT_V_MANDATORY</option>
+        </field>
+        <field name="field_prompt4" type="text" class="input-xlarge" label="COM_FLEXICONTACT_V_PROMPT" default="" />
+
+        <field name="field_opt5" type="list" default="1" label="COM_FLEXICONTACT_FIELD_5" >
+            <option value="disabled">COM_FLEXICONTACT_V_DISABLED</option>
+            <option value="optional">COM_FLEXICONTACT_V_OPTIONAL</option>
+            <option value="mandatory">COM_FLEXICONTACT_V_MANDATORY</option>
+        </field>
+        <field name="field_prompt5" type="text" class="input-xlarge" label="COM_FLEXICONTACT_V_PROMPT" default="" />
+	</fieldset>
+        
+   	<fieldset name="list" class="lad-fieldset-tab" label="COM_FLEXICONTACT_LIST">
+        <field name="list_note" type="note" label="COM_FLEXICONTACT_LIST_DESC" />
+        <field name="list_opt" type="list" default="1" label="COM_FLEXICONTACT_LIST">
+            <option value="disabled">COM_FLEXICONTACT_V_DISABLED</option>
+            <option value="optional">COM_FLEXICONTACT_V_OPTIONAL</option>
+            <option value="mandatory">COM_FLEXICONTACT_V_MANDATORY</option>
+        </field>
+        <field name="list_prompt" type="text" class="input-xlarge" label="COM_FLEXICONTACT_V_PROMPT" default="" />
+        <field name="list_list" type="textarea" class="input-xlarge" rows="8" label="COM_FLEXICONTACT_V_LIST_ITEMS" default="" 
+            description="COM_FLEXICONTACT_V_LIST_ITEMS_DESC" />
+	</fieldset>
+
+</form>

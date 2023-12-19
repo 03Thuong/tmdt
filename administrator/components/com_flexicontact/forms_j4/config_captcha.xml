@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+   	<fieldset name="image" class="lad-fieldset-tab" label="COM_FLEXICONTACT_IMAGE_CAPTCHA">
+		<field name="new_captcha_config" type="hidden" label="" default="1" />
+		<field name="num_images" type="number" min="0" max="20" label="COM_FLEXICONTACT_V_CAPTCHA_NUMBER" default="" 
+			description="COM_FLEXICONTACT_V_CAPTCHA_DESC" />
+        <field name="raw_images" type="radio" default="0" label="COM_FLEXICONTACT_CONFIG_RAW_IMAGE_MODE"
+            layout="joomla.form.field.radio.switcher" >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+   	</fieldset>
+        
+   	<fieldset name="magic" class="lad-fieldset-tab" label="COM_FLEXICONTACT_V_MAGIC_WORD">
+		<field name="magic_word" type="text" label="COM_FLEXICONTACT_V_MAGIC_WORD" default="" 
+			description="COM_FLEXICONTACT_V_MAGIC_WORD_DESC" />
+		<field name="magic_word_prompt" type="text" label="COM_FLEXICONTACT_V_PROMPT" default="" />
+   	</fieldset>
+
+   	<fieldset name="jcap" class="lad-fieldset-tab" label="COM_FLEXICONTACT_JOOMLA_CAPTCHA">
+        <field name="joomla_captcha" type="radio" default="0" label="COM_FLEXICONTACT_ACTIVATE"
+            layout="joomla.form.field.radio.switcher" >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+   	</fieldset>
+</form>

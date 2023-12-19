@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+   	<fieldset name="main" class="lad-fieldset-tab" label="COM_FLEXICONTACT_TEXT">    
+        <field name="confirm_text" label="_" type="editor" rows="10" cols="100"
+            filter="raw" buttons="true" hide="readmore,pagebreak,article,module,menu,contact,field" class="width-auto" />
+   	</fieldset>
+
+	<fieldset name="variables" class="lad-fieldset-tab" label="COM_FLEXICONTACT_VARIABLES" >
+	</fieldset>
+
+	<fieldset name="options" class="lad-fieldset-tab" label="JOPTIONS">
+		<field name="note1" type="note" label="COM_FLEXICONTACT_CONFIRM_LINK_DESC" />
+		<field name="confirm_link" type="linkpreview" label="COM_FLEXICONTACT_LINK" class="lad-field-inline input-xxlarge" />
+   	</fieldset>
+</form>
